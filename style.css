@@ -1,0 +1,115 @@
+
+#banner{
+    font-family: fantasy;
+    font-size: 50px;
+    color: rgb(137, 98, 40);
+    padding-top: 15px;
+    padding-left: 15px;
+    position: sticky;
+}
+
+
+html{
+background-color:rgb(249, 228, 197)
+
+}
+
+
+body{
+margin: 0;
+padding: 0;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+    background-color: rgb(249, 228, 197);
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+
+}
+
+ul li {
+    padding: 10px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(137, 98, 40);
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(137, 98, 40);
+    text-align: center;
+}
+
+.form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(137, 98, 40); 
+    padding:20px;
+    display: block; width: 300px;
+}
+
+
+
+#submit{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(137, 98, 40); 
+    padding: 20px;
+    font-size: larger;
+
+}
+
+#glasses{
+    width: 10%;
+    height: auto;
+    display:flex;
+    padding-right: 20px;
+    align-items: left;
+}
+
+#magnifying{
+    width: 10%;
+    height: auto;
+    display:flex;
+    padding-right: 20px;
+}
+
+#typewriter{
+    width: 10%;
+    height: auto;
+    display:flex;
+    padding-right: 20px;
+}
+
+h4{
+    display: flex;
+    padding: 40px;
+    padding-left: 20px;
+    color: rgb(137, 98, 40);
+    
+}
+
+.text{
+    display: flex;
+   inline-size: 200px;
+   padding-left: 20px;
+   color: rgb(137, 98, 40);
+
+
+}
+
+.wrapper {
+    display: flex;
+  }  
+
+.wrapper > div {
+    flex: 1;
+  }
