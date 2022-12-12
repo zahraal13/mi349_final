@@ -48,6 +48,14 @@ h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(137, 98, 40);
     text-align: center;
+    padding: 50px;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(137, 98, 40);
+    text-align: left;
+    padding-left: 100px;
 }
 
 .form{
@@ -108,8 +116,32 @@ h4{
 
 .wrapper {
     display: flex;
+    padding: 50px;
   }  
 
 .wrapper > div {
     flex: 1;
+  }
+
+  p{
+    color:rgb(137, 98, 40);
+  }
+
+  #desk{
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .about {
+    display: flex;
+  }  
+
+.about > div {
+    flex: 1;
+  }
+
+  #services{
+    font-family: cursive;
+    padding: 20px;
   }
